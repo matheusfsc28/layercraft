@@ -168,7 +168,7 @@ The structure will be as follows:
 - **Repositories**: Contains the data access logic.
 - **Services**: Implements the business logic.
 
-## Contato
+## Contact
 
 If you have any questions or suggestions, please contact:
 
