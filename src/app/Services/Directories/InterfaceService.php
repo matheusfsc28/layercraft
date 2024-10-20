@@ -83,7 +83,7 @@ class InterfaceService extends BaseDirectoriesServices
 
     private function insertUsesInProvider(string $providerContent, array $usesStatement): string
     {
-        preg_match_all('/^use\s.+;$/m', $providerContent, $matches);
+        preg_match_all('/^\s*use\s+[\w\\\\]+;\s*$/m', $providerContent, $matches);
 
         if (!empty($matches[0])) {
             $lastUseStatement = end($matches[0]);
