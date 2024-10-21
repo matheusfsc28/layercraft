@@ -1,6 +1,5 @@
 {
     "name": "matheusfsc28/layercraft",
-    "version": "1.0.1",
     "description": "A package to generate layered architecture (Controller, Service, Interface, Repository, Model) in Laravel applications.",
     "type": "library",
     "license": "MIT",
