@@ -19,7 +19,7 @@ class ServiceService extends BaseDirectoriesServices
 
     public function createTemplate(string $className, ?string $namespace = null): bool
     {
-        $completeClassName = "{$className}Services.php";
+        $completeClassName = "{$className}Service.php";
         $path = $this->createPath($this->basePath, $namespace);
         $template = $this->repository->createTemplate($className, $namespace);
         return $this->createFile("$path/$completeClassName", $template);
